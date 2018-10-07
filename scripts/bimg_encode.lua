@@ -37,7 +37,7 @@ project "bimg_encode"
 		path.join(BIMG_DIR, "3rdparty/iqa/source/**.c"),
 	}
 
-	configuration { "linux-*" }
+	configuration { "linux-* or freebsd" }
 		buildoptions {
 			"-fPIC",
 		}

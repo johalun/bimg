@@ -19,7 +19,7 @@ project "bimg_decode"
 		path.join(BIMG_DIR, "src/image_decode.*"),
 	}
 
-	configuration { "linux-*" }
+	configuration { "linux-* or freebsd" }
 		buildoptions {
 			"-fPIC",
 		}

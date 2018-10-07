@@ -27,7 +27,7 @@ project "bimg"
 		path.join(BIMG_DIR, "src/image_gnf.cpp"),
 	}
 
-	configuration { "linux-*" }
+	configuration { "linux-* or freebsd" }
 		buildoptions {
 			"-fPIC",
 		}
